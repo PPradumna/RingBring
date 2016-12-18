@@ -1,0 +1,1198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1802B5621DBF7E3F006DDFFC /* SubFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B5611DBF7E3F006DDFFC /* SubFoodViewController.m */; };
+		1802B5661DBF8E45006DDFFC /* LoginPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802B5651DBF8E45006DDFFC /* LoginPopUpViewController.m */; };
+		1803004F1DB8DC3900927F23 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803004E1DB8DC3900927F23 /* CustomView.m */; };
+		183C42D61DB8C20F00DBEC03 /* MyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42D51DB8C20F00DBEC03 /* MyOrderViewController.m */; };
+		183C42D91DB8C22A00DBEC03 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42D81DB8C22A00DBEC03 /* AboutUsViewController.m */; };
+		183C42DC1DB8C24200DBEC03 /* YourAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42DB1DB8C24200DBEC03 /* YourAddressViewController.m */; };
+		183C42DF1DB8C25C00DBEC03 /* DiscountOfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42DE1DB8C25C00DBEC03 /* DiscountOfferViewController.m */; };
+		183C42E21DB8C27100DBEC03 /* HelpSupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42E11DB8C27100DBEC03 /* HelpSupportViewController.m */; };
+		1841EB871DB8B05F007DEEBB /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841EB861DB8B05F007DEEBB /* MyProfileViewController.m */; };
+		189E87A61DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E87A41DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.m */; };
+		189E87A71DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189E87A51DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.xib */; };
+		189E87A91DBE28C7001EF2F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E87A81DBE28C7001EF2F1 /* AVFoundation.framework */; };
+		189E87AB1DBE2959001EF2F1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E87AA1DBE2959001EF2F1 /* QuartzCore.framework */; };
+		189E87AD1DBE2961001EF2F1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E87AC1DBE2961001EF2F1 /* CoreFoundation.framework */; };
+		189E87AF1DBE297B001EF2F1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E87AE1DBE297B001EF2F1 /* ImageIO.framework */; };
+		189E87B11DBE29BF001EF2F1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E87B01DBE29BF001EF2F1 /* CoreMedia.framework */; };
+		189E87B31DBE317D001EF2F1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E87B21DBE317D001EF2F1 /* libc++.tbd */; };
+		189E87B51DBE31CB001EF2F1 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E87B41DBE31CB001EF2F1 /* libxml2.tbd */; };
+		2FB822A5789F2D2C949545E4 /* libPods-ringbringUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FA17C0DC12FA0DCBA6E230 /* libPods-ringbringUITests.a */; };
+		560F660EF3C82BFDFD3C2784 /* libPods-ringbring.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE37CB9B9AF82E9A36BDB30 /* libPods-ringbring.a */; };
+		7A34F7CC1DA7711D00294ACE /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A34F7CB1DA7711D00294ACE /* TabViewController.m */; };
+		7A34F7D01DA7830D00294ACE /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A34F7CF1DA7830D00294ACE /* NavigationViewController.m */; };
+		7ABF3EE51DA51E0D00B63280 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EDB1DA51E0D00B63280 /* AccountKit.framework */; };
+		7ABF3EE61DA51E0D00B63280 /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF3EDC1DA51E0D00B63280 /* AccountKitStrings.bundle */; };
+		7ABF3EE71DA51E0D00B63280 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EDD1DA51E0D00B63280 /* Bolts.framework */; };
+		7ABF3EE81DA51E0D00B63280 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF3EDE1DA51E0D00B63280 /* FacebookSDKStrings.bundle */; };
+		7ABF3EE91DA51E0D00B63280 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EDF1DA51E0D00B63280 /* FBAudienceNetwork.framework */; };
+		7ABF3EEA1DA51E0D00B63280 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EE01DA51E0D00B63280 /* FBNotifications.framework */; };
+		7ABF3EEB1DA51E0D00B63280 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EE11DA51E0D00B63280 /* FBSDKCoreKit.framework */; };
+		7ABF3EEC1DA51E0D00B63280 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EE21DA51E0D00B63280 /* FBSDKLoginKit.framework */; };
+		7ABF3EED1DA51E0D00B63280 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EE31DA51E0D00B63280 /* FBSDKMessengerShareKit.framework */; };
+		7ABF3EEE1DA51E0D00B63280 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EE41DA51E0D00B63280 /* FBSDKShareKit.framework */; };
+		7ACA72C11DA38FC200C6583C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA72C01DA38FC200C6583C /* main.m */; };
+		7ACA72CA1DA38FC300C6583C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA72C81DA38FC300C6583C /* Main.storyboard */; };
+		7ACA72CC1DA38FC300C6583C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA72CB1DA38FC300C6583C /* Assets.xcassets */; };
+		7ACA72CF1DA38FC300C6583C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA72CD1DA38FC300C6583C /* LaunchScreen.storyboard */; };
+		7ACA72DA1DA38FC300C6583C /* ringbringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA72D91DA38FC300C6583C /* ringbringTests.m */; };
+		7ACA72E51DA38FC300C6583C /* ringbringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA72E41DA38FC300C6583C /* ringbringUITests.m */; };
+		7ACA72F91DA3903700C6583C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA72F81DA3903700C6583C /* AppDelegate.m */; };
+		7ACA72FD1DA3912400C6583C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA72FC1DA3912400C6583C /* HomeViewController.m */; };
+		7ACA73161DA3A21F00C6583C /* MainHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73111DA3A21F00C6583C /* MainHeaderTableViewCell.m */; };
+		7ACA73171DA3A21F00C6583C /* MainHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA73121DA3A21F00C6583C /* MainHeaderTableViewCell.xib */; };
+		7ACA731E1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA731C1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.m */; };
+		7ACA731F1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA731D1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.xib */; };
+		7ACA73241DA3B07D00C6583C /* MoodSelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73221DA3B07D00C6583C /* MoodSelectionTableViewCell.m */; };
+		7ACA73251DA3B07D00C6583C /* MoodSelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA73231DA3B07D00C6583C /* MoodSelectionTableViewCell.xib */; };
+		7ACA732A1DA3B11900C6583C /* MoodSelectionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73281DA3B11900C6583C /* MoodSelectionCollectionViewCell.m */; };
+		7ACA732B1DA3B11900C6583C /* MoodSelectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA73291DA3B11900C6583C /* MoodSelectionCollectionViewCell.xib */; };
+		7ACA73301DA3BC1700C6583C /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA732E1DA3BC1700C6583C /* FoodTableViewCell.m */; };
+		7ACA73311DA3BC1700C6583C /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA732F1DA3BC1700C6583C /* FoodTableViewCell.xib */; };
+		7AE3533E1DA7DF6D002248EB /* FoodDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3533D1DA7DF6D002248EB /* FoodDetailsViewController.m */; };
+		7AE46E531DA6648100367D8E /* MyCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE46E521DA6648100367D8E /* MyCartViewController.m */; };
+		7AE46E561DA6649300367D8E /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE46E551DA6649300367D8E /* MyAccountViewController.m */; };
+		B58B93208D6E45608E6A6BC8 /* libPods-ringbringTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */; };
+		B61742DB1E06883C004FACA7 /* FrequencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61742DA1E06883C004FACA7 /* FrequencyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ACA72D61DA38FC300C6583C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ACA72B41DA38FC200C6583C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACA72BB1DA38FC200C6583C;
+			remoteInfo = ringbring;
+		};
+		7ACA72E11DA38FC300C6583C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ACA72B41DA38FC200C6583C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACA72BB1DA38FC200C6583C;
+			remoteInfo = ringbring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D82D338FCCBAA6062049ED /* Pods-ringbringUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ringbringUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ringbringUITests/Pods-ringbringUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D736481B1DA555FB010215A /* Pods-ringbring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ringbring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ringbring/Pods-ringbring.debug.xcconfig"; sourceTree = "<group>"; };
+		1802B5601DBF7E3F006DDFFC /* SubFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubFoodViewController.h; sourceTree = "<group>"; };
+		1802B5611DBF7E3F006DDFFC /* SubFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubFoodViewController.m; sourceTree = "<group>"; };
+		1802B5641DBF8E45006DDFFC /* LoginPopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPopUpViewController.h; sourceTree = "<group>"; };
+		1802B5651DBF8E45006DDFFC /* LoginPopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPopUpViewController.m; sourceTree = "<group>"; };
+		1803004D1DB8DC3900927F23 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		1803004E1DB8DC3900927F23 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		183C42D41DB8C20F00DBEC03 /* MyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderViewController.h; sourceTree = "<group>"; };
+		183C42D51DB8C20F00DBEC03 /* MyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderViewController.m; sourceTree = "<group>"; };
+		183C42D71DB8C22A00DBEC03 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		183C42D81DB8C22A00DBEC03 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		183C42DA1DB8C24200DBEC03 /* YourAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourAddressViewController.h; sourceTree = "<group>"; };
+		183C42DB1DB8C24200DBEC03 /* YourAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourAddressViewController.m; sourceTree = "<group>"; };
+		183C42DD1DB8C25C00DBEC03 /* DiscountOfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscountOfferViewController.h; sourceTree = "<group>"; };
+		183C42DE1DB8C25C00DBEC03 /* DiscountOfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscountOfferViewController.m; sourceTree = "<group>"; };
+		183C42E01DB8C27100DBEC03 /* HelpSupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpSupportViewController.h; sourceTree = "<group>"; };
+		183C42E11DB8C27100DBEC03 /* HelpSupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpSupportViewController.m; sourceTree = "<group>"; };
+		1841EB851DB8B05F007DEEBB /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		1841EB861DB8B05F007DEEBB /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
+		189E87A31DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailsTableViewCell.h; sourceTree = "<group>"; };
+		189E87A41DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailsTableViewCell.m; sourceTree = "<group>"; };
+		189E87A51DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		189E87A81DBE28C7001EF2F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		189E87AA1DBE2959001EF2F1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		189E87AC1DBE2961001EF2F1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		189E87AE1DBE297B001EF2F1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		189E87B01DBE29BF001EF2F1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		189E87B21DBE317D001EF2F1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		189E87B41DBE31CB001EF2F1 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		1A2C7E04438F8C2F9DBBC10B /* Pods-ringbring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ringbring.release.xcconfig"; path = "Pods/Target Support Files/Pods-ringbring/Pods-ringbring.release.xcconfig"; sourceTree = "<group>"; };
+		232C575F46F8252A33D2C791 /* Pods-ringbringTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ringbringTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ringbringTests/Pods-ringbringTests.release.xcconfig"; sourceTree = "<group>"; };
+		29FA17C0DC12FA0DCBA6E230 /* libPods-ringbringUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ringbringUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6A93824B9B05327CC86831 /* Pods-ringbringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ringbringTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ringbringTests/Pods-ringbringTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE37CB9B9AF82E9A36BDB30 /* libPods-ringbring.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ringbring.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A34F7CA1DA7711D00294ACE /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		7A34F7CB1DA7711D00294ACE /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		7A34F7CE1DA7830D00294ACE /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		7A34F7CF1DA7830D00294ACE /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		7ABF3EDB1DA51E0D00B63280 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		7ABF3EDC1DA51E0D00B63280 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		7ABF3EDD1DA51E0D00B63280 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		7ABF3EDE1DA51E0D00B63280 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		7ABF3EDF1DA51E0D00B63280 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		7ABF3EE01DA51E0D00B63280 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		7ABF3EE11DA51E0D00B63280 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7ABF3EE21DA51E0D00B63280 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7ABF3EE31DA51E0D00B63280 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		7ABF3EE41DA51E0D00B63280 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7ACA72BC1DA38FC200C6583C /* ringbring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringbring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACA72C01DA38FC200C6583C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ACA72C91DA38FC300C6583C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ACA72CB1DA38FC300C6583C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ACA72CE1DA38FC300C6583C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ACA72D01DA38FC300C6583C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACA72D51DA38FC300C6583C /* ringbringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringbringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACA72D91DA38FC300C6583C /* ringbringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ringbringTests.m; sourceTree = "<group>"; };
+		7ACA72DB1DA38FC300C6583C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACA72E01DA38FC300C6583C /* ringbringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringbringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACA72E41DA38FC300C6583C /* ringbringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ringbringUITests.m; sourceTree = "<group>"; };
+		7ACA72E61DA38FC300C6583C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACA72F71DA3903700C6583C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ACA72F81DA3903700C6583C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ACA72FB1DA3912400C6583C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7ACA72FC1DA3912400C6583C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7ACA73101DA3A21F00C6583C /* MainHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainHeaderTableViewCell.h; sourceTree = "<group>"; };
+		7ACA73111DA3A21F00C6583C /* MainHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainHeaderTableViewCell.m; sourceTree = "<group>"; };
+		7ACA73121DA3A21F00C6583C /* MainHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		7ACA731B1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderCollectionViewCell.h; sourceTree = "<group>"; };
+		7ACA731C1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderCollectionViewCell.m; sourceTree = "<group>"; };
+		7ACA731D1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		7ACA73211DA3B07D00C6583C /* MoodSelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodSelectionTableViewCell.h; sourceTree = "<group>"; };
+		7ACA73221DA3B07D00C6583C /* MoodSelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodSelectionTableViewCell.m; sourceTree = "<group>"; };
+		7ACA73231DA3B07D00C6583C /* MoodSelectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodSelectionTableViewCell.xib; sourceTree = "<group>"; };
+		7ACA73271DA3B11900C6583C /* MoodSelectionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodSelectionCollectionViewCell.h; sourceTree = "<group>"; };
+		7ACA73281DA3B11900C6583C /* MoodSelectionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodSelectionCollectionViewCell.m; sourceTree = "<group>"; };
+		7ACA73291DA3B11900C6583C /* MoodSelectionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodSelectionCollectionViewCell.xib; sourceTree = "<group>"; };
+		7ACA732D1DA3BC1700C6583C /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		7ACA732E1DA3BC1700C6583C /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		7ACA732F1DA3BC1700C6583C /* FoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		7AE3533C1DA7DF6D002248EB /* FoodDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailsViewController.h; sourceTree = "<group>"; };
+		7AE3533D1DA7DF6D002248EB /* FoodDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailsViewController.m; sourceTree = "<group>"; };
+		7AE46E511DA6648100367D8E /* MyCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCartViewController.h; sourceTree = "<group>"; };
+		7AE46E521DA6648100367D8E /* MyCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCartViewController.m; sourceTree = "<group>"; };
+		7AE46E541DA6649300367D8E /* MyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountViewController.h; sourceTree = "<group>"; };
+		7AE46E551DA6649300367D8E /* MyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountViewController.m; sourceTree = "<group>"; };
+		83D41BFAC5DF7405B4D42C8A /* Pods-ringbringUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ringbringUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ringbringUITests/Pods-ringbringUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B61742D91E06883C004FACA7 /* FrequencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyViewController.h; sourceTree = "<group>"; };
+		B61742DA1E06883C004FACA7 /* FrequencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyViewController.m; sourceTree = "<group>"; };
+		E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ringbringTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ACA72B91DA38FC200C6583C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E87B51DBE31CB001EF2F1 /* libxml2.tbd in Frameworks */,
+				189E87B31DBE317D001EF2F1 /* libc++.tbd in Frameworks */,
+				189E87B11DBE29BF001EF2F1 /* CoreMedia.framework in Frameworks */,
+				189E87AF1DBE297B001EF2F1 /* ImageIO.framework in Frameworks */,
+				189E87AD1DBE2961001EF2F1 /* CoreFoundation.framework in Frameworks */,
+				189E87AB1DBE2959001EF2F1 /* QuartzCore.framework in Frameworks */,
+				189E87A91DBE28C7001EF2F1 /* AVFoundation.framework in Frameworks */,
+				7ABF3EEE1DA51E0D00B63280 /* FBSDKShareKit.framework in Frameworks */,
+				7ABF3EEB1DA51E0D00B63280 /* FBSDKCoreKit.framework in Frameworks */,
+				7ABF3EE91DA51E0D00B63280 /* FBAudienceNetwork.framework in Frameworks */,
+				7ABF3EEC1DA51E0D00B63280 /* FBSDKLoginKit.framework in Frameworks */,
+				7ABF3EE51DA51E0D00B63280 /* AccountKit.framework in Frameworks */,
+				7ABF3EE71DA51E0D00B63280 /* Bolts.framework in Frameworks */,
+				7ABF3EEA1DA51E0D00B63280 /* FBNotifications.framework in Frameworks */,
+				7ABF3EED1DA51E0D00B63280 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				560F660EF3C82BFDFD3C2784 /* libPods-ringbring.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACA72D21DA38FC300C6583C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B93208D6E45608E6A6BC8 /* libPods-ringbringTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACA72DD1DA38FC300C6583C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB822A5789F2D2C949545E4 /* libPods-ringbringUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1802B55F1DBF7E1A006DDFFC /* SubFoodDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1802B5601DBF7E3F006DDFFC /* SubFoodViewController.h */,
+				1802B5611DBF7E3F006DDFFC /* SubFoodViewController.m */,
+			);
+			path = SubFoodDetailsViewController;
+			sourceTree = "<group>";
+		};
+		1802B5631DBF8DEF006DDFFC /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1802B5641DBF8E45006DDFFC /* LoginPopUpViewController.h */,
+				1802B5651DBF8E45006DDFFC /* LoginPopUpViewController.m */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		1803004C1DB8D7AC00927F23 /* IBDesignableController */ = {
+			isa = PBXGroup;
+			children = (
+				1803004D1DB8DC3900927F23 /* CustomView.h */,
+				1803004E1DB8DC3900927F23 /* CustomView.m */,
+			);
+			path = IBDesignableController;
+			sourceTree = "<group>";
+		};
+		183C42CF1DB8C19000DBEC03 /* MyOrderController */ = {
+			isa = PBXGroup;
+			children = (
+				183C42D41DB8C20F00DBEC03 /* MyOrderViewController.h */,
+				183C42D51DB8C20F00DBEC03 /* MyOrderViewController.m */,
+			);
+			name = MyOrderController;
+			path = HomeViewController/MyOrderController;
+			sourceTree = "<group>";
+		};
+		183C42D01DB8C19D00DBEC03 /* DiscountOfferController */ = {
+			isa = PBXGroup;
+			children = (
+				183C42DD1DB8C25C00DBEC03 /* DiscountOfferViewController.h */,
+				183C42DE1DB8C25C00DBEC03 /* DiscountOfferViewController.m */,
+			);
+			name = DiscountOfferController;
+			path = MyProfileController/DiscountOfferController;
+			sourceTree = "<group>";
+		};
+		183C42D11DB8C1C000DBEC03 /* YourAddressController */ = {
+			isa = PBXGroup;
+			children = (
+				183C42DA1DB8C24200DBEC03 /* YourAddressViewController.h */,
+				183C42DB1DB8C24200DBEC03 /* YourAddressViewController.m */,
+			);
+			path = YourAddressController;
+			sourceTree = "<group>";
+		};
+		183C42D21DB8C1CB00DBEC03 /* HelpSupportController */ = {
+			isa = PBXGroup;
+			children = (
+				183C42E01DB8C27100DBEC03 /* HelpSupportViewController.h */,
+				183C42E11DB8C27100DBEC03 /* HelpSupportViewController.m */,
+			);
+			path = HelpSupportController;
+			sourceTree = "<group>";
+		};
+		183C42D31DB8C1D300DBEC03 /* AboutUsController */ = {
+			isa = PBXGroup;
+			children = (
+				183C42D71DB8C22A00DBEC03 /* AboutUsViewController.h */,
+				183C42D81DB8C22A00DBEC03 /* AboutUsViewController.m */,
+			);
+			path = AboutUsController;
+			sourceTree = "<group>";
+		};
+		1841EB841DB8B02D007DEEBB /* MyProfileController */ = {
+			isa = PBXGroup;
+			children = (
+				1841EB851DB8B05F007DEEBB /* MyProfileViewController.h */,
+				1841EB861DB8B05F007DEEBB /* MyProfileViewController.m */,
+			);
+			path = MyProfileController;
+			sourceTree = "<group>";
+		};
+		189E87A21DBE1A39001EF2F1 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				189E87A31DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.h */,
+				189E87A41DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.m */,
+				189E87A51DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		4491F74A42569C3DFD264F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189E87B41DBE31CB001EF2F1 /* libxml2.tbd */,
+				189E87B21DBE317D001EF2F1 /* libc++.tbd */,
+				189E87B01DBE29BF001EF2F1 /* CoreMedia.framework */,
+				189E87AE1DBE297B001EF2F1 /* ImageIO.framework */,
+				189E87AC1DBE2961001EF2F1 /* CoreFoundation.framework */,
+				189E87AA1DBE2959001EF2F1 /* QuartzCore.framework */,
+				189E87A81DBE28C7001EF2F1 /* AVFoundation.framework */,
+				2EE37CB9B9AF82E9A36BDB30 /* libPods-ringbring.a */,
+				E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */,
+				29FA17C0DC12FA0DCBA6E230 /* libPods-ringbringUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A34F7C91DA770FE00294ACE /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				7A34F7CA1DA7711D00294ACE /* TabViewController.h */,
+				7A34F7CB1DA7711D00294ACE /* TabViewController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		7A34F7CD1DA782F300294ACE /* NavigationContoller */ = {
+			isa = PBXGroup;
+			children = (
+				7A34F7CE1DA7830D00294ACE /* NavigationViewController.h */,
+				7A34F7CF1DA7830D00294ACE /* NavigationViewController.m */,
+			);
+			path = NavigationContoller;
+			sourceTree = "<group>";
+		};
+		7ABF3EDA1DA51E0D00B63280 /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF3EDB1DA51E0D00B63280 /* AccountKit.framework */,
+				7ABF3EDC1DA51E0D00B63280 /* AccountKitStrings.bundle */,
+				7ABF3EDD1DA51E0D00B63280 /* Bolts.framework */,
+				7ABF3EDE1DA51E0D00B63280 /* FacebookSDKStrings.bundle */,
+				7ABF3EDF1DA51E0D00B63280 /* FBAudienceNetwork.framework */,
+				7ABF3EE01DA51E0D00B63280 /* FBNotifications.framework */,
+				7ABF3EE11DA51E0D00B63280 /* FBSDKCoreKit.framework */,
+				7ABF3EE21DA51E0D00B63280 /* FBSDKLoginKit.framework */,
+				7ABF3EE31DA51E0D00B63280 /* FBSDKMessengerShareKit.framework */,
+				7ABF3EE41DA51E0D00B63280 /* FBSDKShareKit.framework */,
+			);
+			name = FacebookSDK;
+			path = ringbring/FacebookSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		7ACA72B31DA38FC200C6583C = {
+			isa = PBXGroup;
+			children = (
+				7ACA72BE1DA38FC200C6583C /* ringbring */,
+				7ACA72D81DA38FC300C6583C /* ringbringTests */,
+				7ACA72E31DA38FC300C6583C /* ringbringUITests */,
+				7ACA72BD1DA38FC200C6583C /* Products */,
+				B80F22564D5EDB04E1C46D45 /* Pods */,
+				4491F74A42569C3DFD264F8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ACA72BD1DA38FC200C6583C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72BC1DA38FC200C6583C /* ringbring.app */,
+				7ACA72D51DA38FC300C6583C /* ringbringTests.xctest */,
+				7ACA72E01DA38FC300C6583C /* ringbringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ACA72BE1DA38FC200C6583C /* ringbring */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72F61DA3903700C6583C /* Appdelegate */,
+				7ACA72F21DA3901F00C6583C /* MVC */,
+				7ACA730A1DA3A0F300C6583C /* Images Assests */,
+				7ABF3EDA1DA51E0D00B63280 /* FacebookSDK */,
+				7ACA72CB1DA38FC300C6583C /* Assets.xcassets */,
+				7ACA72CD1DA38FC300C6583C /* LaunchScreen.storyboard */,
+				7ACA72D01DA38FC300C6583C /* Info.plist */,
+				7ACA72BF1DA38FC200C6583C /* Supporting Files */,
+			);
+			path = ringbring;
+			sourceTree = "<group>";
+		};
+		7ACA72BF1DA38FC200C6583C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72C01DA38FC200C6583C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ACA72D81DA38FC300C6583C /* ringbringTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72D91DA38FC300C6583C /* ringbringTests.m */,
+				7ACA72DB1DA38FC300C6583C /* Info.plist */,
+			);
+			path = ringbringTests;
+			sourceTree = "<group>";
+		};
+		7ACA72E31DA38FC300C6583C /* ringbringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72E41DA38FC300C6583C /* ringbringUITests.m */,
+				7ACA72E61DA38FC300C6583C /* Info.plist */,
+			);
+			path = ringbringUITests;
+			sourceTree = "<group>";
+		};
+		7ACA72F21DA3901F00C6583C /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72F31DA3901F00C6583C /* Controllers */,
+				7ACA72F41DA3901F00C6583C /* Model */,
+				7ACA72F51DA3901F00C6583C /* Views */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		7ACA72F31DA3901F00C6583C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B61742D81E06881C004FACA7 /* FrequencyViewController */,
+				1803004C1DB8D7AC00927F23 /* IBDesignableController */,
+				7AE3533B1DA7DF4C002248EB /* FoodDetailsViewController */,
+				7A34F7CD1DA782F300294ACE /* NavigationContoller */,
+				7A34F7C91DA770FE00294ACE /* TabBarController */,
+				7AE46E501DA6646000367D8E /* MyCartViewController */,
+				7AE46E4F1DA6645800367D8E /* MyAccountViewController */,
+				1841EB841DB8B02D007DEEBB /* MyProfileController */,
+				183C42D21DB8C1CB00DBEC03 /* HelpSupportController */,
+				183C42D01DB8C19D00DBEC03 /* DiscountOfferController */,
+				183C42D11DB8C1C000DBEC03 /* YourAddressController */,
+				183C42D31DB8C1D300DBEC03 /* AboutUsController */,
+				183C42CF1DB8C19000DBEC03 /* MyOrderController */,
+				7ACA72FA1DA3910700C6583C /* HomeViewController */,
+				1802B5631DBF8DEF006DDFFC /* LoginViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7ACA72F41DA3901F00C6583C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7ACA72F51DA3901F00C6583C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72C81DA38FC300C6583C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7ACA72F61DA3903700C6583C /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72F71DA3903700C6583C /* AppDelegate.h */,
+				7ACA72F81DA3903700C6583C /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		7ACA72FA1DA3910700C6583C /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA72FB1DA3912400C6583C /* HomeViewController.h */,
+				7ACA72FC1DA3912400C6583C /* HomeViewController.m */,
+				7ACA730E1DA3A21F00C6583C /* CustomCells */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		7ACA730A1DA3A0F300C6583C /* Images Assests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA730B1DA3A0F300C6583C /* Temp Images */,
+			);
+			name = "Images Assests";
+			path = "ringbring/Images Assests";
+			sourceTree = SOURCE_ROOT;
+		};
+		7ACA730B1DA3A0F300C6583C /* Temp Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Temp Images";
+			sourceTree = "<group>";
+		};
+		7ACA730E1DA3A21F00C6583C /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA730F1DA3A21F00C6583C /* HomeCustomCell */,
+				7ACA731A1DA3A2B700C6583C /* HomeCustomCollectionCell */,
+				7ACA73261DA3B0ED00C6583C /* MoodSelectionCollectionViewCell */,
+				7ACA73201DA3B02800C6583C /* MoodSelectionTableViewCell */,
+				7ACA732C1DA3BBFC00C6583C /* FoodTableViewCell */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		7ACA730F1DA3A21F00C6583C /* HomeCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA73101DA3A21F00C6583C /* MainHeaderTableViewCell.h */,
+				7ACA73111DA3A21F00C6583C /* MainHeaderTableViewCell.m */,
+				7ACA73121DA3A21F00C6583C /* MainHeaderTableViewCell.xib */,
+			);
+			path = HomeCustomCell;
+			sourceTree = "<group>";
+		};
+		7ACA731A1DA3A2B700C6583C /* HomeCustomCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA731B1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.h */,
+				7ACA731C1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.m */,
+				7ACA731D1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.xib */,
+			);
+			name = HomeCustomCollectionCell;
+			path = ringbring/MVC/Controllers/HomeViewController/CustomCells/HomeCustomCollectionCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		7ACA73201DA3B02800C6583C /* MoodSelectionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA73211DA3B07D00C6583C /* MoodSelectionTableViewCell.h */,
+				7ACA73221DA3B07D00C6583C /* MoodSelectionTableViewCell.m */,
+				7ACA73231DA3B07D00C6583C /* MoodSelectionTableViewCell.xib */,
+			);
+			path = MoodSelectionTableViewCell;
+			sourceTree = "<group>";
+		};
+		7ACA73261DA3B0ED00C6583C /* MoodSelectionCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA73271DA3B11900C6583C /* MoodSelectionCollectionViewCell.h */,
+				7ACA73281DA3B11900C6583C /* MoodSelectionCollectionViewCell.m */,
+				7ACA73291DA3B11900C6583C /* MoodSelectionCollectionViewCell.xib */,
+			);
+			path = MoodSelectionCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		7ACA732C1DA3BBFC00C6583C /* FoodTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA732D1DA3BC1700C6583C /* FoodTableViewCell.h */,
+				7ACA732E1DA3BC1700C6583C /* FoodTableViewCell.m */,
+				7ACA732F1DA3BC1700C6583C /* FoodTableViewCell.xib */,
+			);
+			name = FoodTableViewCell;
+			path = ringbring/MVC/Controllers/HomeViewController/CustomCells/FoodTableViewCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		7AE3533B1DA7DF4C002248EB /* FoodDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3533C1DA7DF6D002248EB /* FoodDetailsViewController.h */,
+				7AE3533D1DA7DF6D002248EB /* FoodDetailsViewController.m */,
+				1802B55F1DBF7E1A006DDFFC /* SubFoodDetailsViewController */,
+				189E87A21DBE1A39001EF2F1 /* CustomCell */,
+			);
+			path = FoodDetailsViewController;
+			sourceTree = "<group>";
+		};
+		7AE46E4F1DA6645800367D8E /* MyAccountViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AE46E541DA6649300367D8E /* MyAccountViewController.h */,
+				7AE46E551DA6649300367D8E /* MyAccountViewController.m */,
+			);
+			path = MyAccountViewController;
+			sourceTree = "<group>";
+		};
+		7AE46E501DA6646000367D8E /* MyCartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AE46E511DA6648100367D8E /* MyCartViewController.h */,
+				7AE46E521DA6648100367D8E /* MyCartViewController.m */,
+			);
+			path = MyCartViewController;
+			sourceTree = "<group>";
+		};
+		B61742D81E06881C004FACA7 /* FrequencyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B61742D91E06883C004FACA7 /* FrequencyViewController.h */,
+				B61742DA1E06883C004FACA7 /* FrequencyViewController.m */,
+			);
+			name = FrequencyViewController;
+			sourceTree = "<group>";
+		};
+		B80F22564D5EDB04E1C46D45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D736481B1DA555FB010215A /* Pods-ringbring.debug.xcconfig */,
+				1A2C7E04438F8C2F9DBBC10B /* Pods-ringbring.release.xcconfig */,
+				2E6A93824B9B05327CC86831 /* Pods-ringbringTests.debug.xcconfig */,
+				232C575F46F8252A33D2C791 /* Pods-ringbringTests.release.xcconfig */,
+				02D82D338FCCBAA6062049ED /* Pods-ringbringUITests.debug.xcconfig */,
+				83D41BFAC5DF7405B4D42C8A /* Pods-ringbringUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ACA72BB1DA38FC200C6583C /* ringbring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACA72E91DA38FC300C6583C /* Build configuration list for PBXNativeTarget "ringbring" */;
+			buildPhases = (
+				D3F5751B772A3451D3A2FA4D /* [CP] Check Pods Manifest.lock */,
+				7ACA72B81DA38FC200C6583C /* Sources */,
+				7ACA72B91DA38FC200C6583C /* Frameworks */,
+				7ACA72BA1DA38FC200C6583C /* Resources */,
+				531ECF8FC87290045B7CCFA8 /* [CP] Embed Pods Frameworks */,
+				2B7E2E203201DE87E278B978 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ringbring;
+			productName = ringbring;
+			productReference = 7ACA72BC1DA38FC200C6583C /* ringbring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ACA72D41DA38FC300C6583C /* ringbringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACA72EC1DA38FC300C6583C /* Build configuration list for PBXNativeTarget "ringbringTests" */;
+			buildPhases = (
+				1D608CECB1EA4552C54A9D5B /* [CP] Check Pods Manifest.lock */,
+				7ACA72D11DA38FC300C6583C /* Sources */,
+				7ACA72D21DA38FC300C6583C /* Frameworks */,
+				7ACA72D31DA38FC300C6583C /* Resources */,
+				5A227A794A1F7DD72B743123 /* [CP] Embed Pods Frameworks */,
+				6704B7E6E56894E89D8EFAEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ACA72D71DA38FC300C6583C /* PBXTargetDependency */,
+			);
+			name = ringbringTests;
+			productName = ringbringTests;
+			productReference = 7ACA72D51DA38FC300C6583C /* ringbringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ACA72DF1DA38FC300C6583C /* ringbringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACA72EF1DA38FC300C6583C /* Build configuration list for PBXNativeTarget "ringbringUITests" */;
+			buildPhases = (
+				3CC08A6664D1C5D1D291BE9A /* [CP] Check Pods Manifest.lock */,
+				7ACA72DC1DA38FC300C6583C /* Sources */,
+				7ACA72DD1DA38FC300C6583C /* Frameworks */,
+				7ACA72DE1DA38FC300C6583C /* Resources */,
+				8E8B1AA336A6338AD9456C70 /* [CP] Embed Pods Frameworks */,
+				EC0FA0F8AEBB37D0274A2ADB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ACA72E21DA38FC300C6583C /* PBXTargetDependency */,
+			);
+			name = ringbringUITests;
+			productName = ringbringUITests;
+			productReference = 7ACA72E01DA38FC300C6583C /* ringbringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ACA72B41DA38FC200C6583C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "mukund pilankar";
+				TargetAttributes = {
+					7ACA72BB1DA38FC200C6583C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7ACA72D41DA38FC300C6583C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7ACA72BB1DA38FC200C6583C;
+					};
+					7ACA72DF1DA38FC300C6583C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7ACA72BB1DA38FC200C6583C;
+					};
+				};
+			};
+			buildConfigurationList = 7ACA72B71DA38FC200C6583C /* Build configuration list for PBXProject "ringbring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ACA72B31DA38FC200C6583C;
+			productRefGroup = 7ACA72BD1DA38FC200C6583C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ACA72BB1DA38FC200C6583C /* ringbring */,
+				7ACA72D41DA38FC300C6583C /* ringbringTests */,
+				7ACA72DF1DA38FC300C6583C /* ringbringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ACA72BA1DA38FC200C6583C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACA732B1DA3B11900C6583C /* MoodSelectionCollectionViewCell.xib in Resources */,
+				7ACA731F1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.xib in Resources */,
+				7ACA72CF1DA38FC300C6583C /* LaunchScreen.storyboard in Resources */,
+				7ACA72CC1DA38FC300C6583C /* Assets.xcassets in Resources */,
+				7ACA72CA1DA38FC300C6583C /* Main.storyboard in Resources */,
+				7ACA73251DA3B07D00C6583C /* MoodSelectionTableViewCell.xib in Resources */,
+				7ABF3EE61DA51E0D00B63280 /* AccountKitStrings.bundle in Resources */,
+				7ACA73171DA3A21F00C6583C /* MainHeaderTableViewCell.xib in Resources */,
+				7ACA73311DA3BC1700C6583C /* FoodTableViewCell.xib in Resources */,
+				189E87A71DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.xib in Resources */,
+				7ABF3EE81DA51E0D00B63280 /* FacebookSDKStrings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACA72D31DA38FC300C6583C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACA72DE1DA38FC300C6583C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D608CECB1EA4552C54A9D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7E2E203201DE87E278B978 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ringbring/Pods-ringbring-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC08A6664D1C5D1D291BE9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		531ECF8FC87290045B7CCFA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ringbring/Pods-ringbring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A227A794A1F7DD72B743123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ringbringTests/Pods-ringbringTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6704B7E6E56894E89D8EFAEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ringbringTests/Pods-ringbringTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E8B1AA336A6338AD9456C70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ringbringUITests/Pods-ringbringUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F5751B772A3451D3A2FA4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0FA0F8AEBB37D0274A2ADB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ringbringUITests/Pods-ringbringUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ACA72B81DA38FC200C6583C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A34F7CC1DA7711D00294ACE /* TabViewController.m in Sources */,
+				7ACA72F91DA3903700C6583C /* AppDelegate.m in Sources */,
+				183C42E21DB8C27100DBEC03 /* HelpSupportViewController.m in Sources */,
+				1802B5661DBF8E45006DDFFC /* LoginPopUpViewController.m in Sources */,
+				1802B5621DBF7E3F006DDFFC /* SubFoodViewController.m in Sources */,
+				B61742DB1E06883C004FACA7 /* FrequencyViewController.m in Sources */,
+				183C42DF1DB8C25C00DBEC03 /* DiscountOfferViewController.m in Sources */,
+				7ACA73301DA3BC1700C6583C /* FoodTableViewCell.m in Sources */,
+				1803004F1DB8DC3900927F23 /* CustomView.m in Sources */,
+				7ACA73161DA3A21F00C6583C /* MainHeaderTableViewCell.m in Sources */,
+				183C42D91DB8C22A00DBEC03 /* AboutUsViewController.m in Sources */,
+				1841EB871DB8B05F007DEEBB /* MyProfileViewController.m in Sources */,
+				7ACA731E1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.m in Sources */,
+				7AE3533E1DA7DF6D002248EB /* FoodDetailsViewController.m in Sources */,
+				189E87A61DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.m in Sources */,
+				7AE46E561DA6649300367D8E /* MyAccountViewController.m in Sources */,
+				7AE46E531DA6648100367D8E /* MyCartViewController.m in Sources */,
+				7ACA732A1DA3B11900C6583C /* MoodSelectionCollectionViewCell.m in Sources */,
+				7A34F7D01DA7830D00294ACE /* NavigationViewController.m in Sources */,
+				7ACA72C11DA38FC200C6583C /* main.m in Sources */,
+				183C42D61DB8C20F00DBEC03 /* MyOrderViewController.m in Sources */,
+				7ACA72FD1DA3912400C6583C /* HomeViewController.m in Sources */,
+				183C42DC1DB8C24200DBEC03 /* YourAddressViewController.m in Sources */,
+				7ACA73241DA3B07D00C6583C /* MoodSelectionTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACA72D11DA38FC300C6583C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACA72DA1DA38FC300C6583C /* ringbringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACA72DC1DA38FC300C6583C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACA72E51DA38FC300C6583C /* ringbringUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ACA72D71DA38FC300C6583C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACA72BB1DA38FC200C6583C /* ringbring */;
+			targetProxy = 7ACA72D61DA38FC300C6583C /* PBXContainerItemProxy */;
+		};
+		7ACA72E21DA38FC300C6583C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACA72BB1DA38FC200C6583C /* ringbring */;
+			targetProxy = 7ACA72E11DA38FC300C6583C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ACA72C81DA38FC300C6583C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACA72C91DA38FC300C6583C /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7ACA72CD1DA38FC300C6583C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACA72CE1DA38FC300C6583C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ACA72E71DA38FC300C6583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ACA72E81DA38FC300C6583C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ACA72EA1DA38FC300C6583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D736481B1DA555FB010215A /* Pods-ringbring.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ringbring/FacebookSDK",
+				);
+				INFOPLIST_FILE = ringbring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringbring.innovins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ACA72EB1DA38FC300C6583C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2C7E04438F8C2F9DBBC10B /* Pods-ringbring.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ringbring/FacebookSDK",
+				);
+				INFOPLIST_FILE = ringbring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringbring.innovins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7ACA72ED1DA38FC300C6583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6A93824B9B05327CC86831 /* Pods-ringbringTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ringbringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringbringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringbring.app/ringbring";
+			};
+			name = Debug;
+		};
+		7ACA72EE1DA38FC300C6583C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232C575F46F8252A33D2C791 /* Pods-ringbringTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ringbringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringbringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringbring.app/ringbring";
+			};
+			name = Release;
+		};
+		7ACA72F01DA38FC300C6583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D82D338FCCBAA6062049ED /* Pods-ringbringUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ringbringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringbringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ringbring;
+			};
+			name = Debug;
+		};
+		7ACA72F11DA38FC300C6583C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D41BFAC5DF7405B4D42C8A /* Pods-ringbringUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ringbringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringbringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ringbring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ACA72B71DA38FC200C6583C /* Build configuration list for PBXProject "ringbring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACA72E71DA38FC300C6583C /* Debug */,
+				7ACA72E81DA38FC300C6583C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACA72E91DA38FC300C6583C /* Build configuration list for PBXNativeTarget "ringbring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACA72EA1DA38FC300C6583C /* Debug */,
+				7ACA72EB1DA38FC300C6583C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACA72EC1DA38FC300C6583C /* Build configuration list for PBXNativeTarget "ringbringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACA72ED1DA38FC300C6583C /* Debug */,
+				7ACA72EE1DA38FC300C6583C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACA72EF1DA38FC300C6583C /* Build configuration list for PBXNativeTarget "ringbringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACA72F01DA38FC300C6583C /* Debug */,
+				7ACA72F11DA38FC300C6583C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ACA72B41DA38FC200C6583C /* Project object */;
+}

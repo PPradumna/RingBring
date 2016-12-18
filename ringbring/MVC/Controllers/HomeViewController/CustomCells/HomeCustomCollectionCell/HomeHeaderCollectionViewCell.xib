@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeHeaderCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="163"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="163"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="5ir-za-gqi"/>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="gum-zC-Xip">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="39" id="ZaU-RM-nji"/>
+                        </constraints>
+                    </pageControl>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5ir-za-gqi" secondAttribute="bottom" id="258-TJ-xVa"/>
+                <constraint firstItem="5ir-za-gqi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4Nr-Fj-2Im"/>
+                <constraint firstAttribute="trailing" secondItem="5ir-za-gqi" secondAttribute="trailing" id="6y9-hl-1K8"/>
+                <constraint firstAttribute="bottom" secondItem="gum-zC-Xip" secondAttribute="bottom" constant="14" id="YgO-aA-Qcx"/>
+                <constraint firstItem="gum-zC-Xip" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="ZBI-R1-95O"/>
+                <constraint firstItem="5ir-za-gqi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="v2R-ZR-7cv"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="5ir-za-gqi" id="ZmM-hq-P2i"/>
+            </connections>
+            <point key="canvasLocation" x="156" y="269.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="images.jpeg" width="259" height="194"/>
+    </resources>
+</document>
