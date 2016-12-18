@@ -32,7 +32,7 @@
     tabBarItem2.image = [[UIImage imageNamed:@"cart"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
     tabBarItem3.selectedImage = [[UIImage imageNamed:@"myaccount"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
     tabBarItem3.image = [[UIImage imageNamed:@"myaccount"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    
+    tabBarItem1.title = @"cart12";
     
 //        UIImage *buttonImage = [UIImage imageNamed:@"cart"];
 //        UIImage *highlightImage = [UIImage imageNamed:@"cart"];
