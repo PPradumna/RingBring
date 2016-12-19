@@ -40,7 +40,6 @@
 		7ABF3EED1DA51E0D00B63280 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EE31DA51E0D00B63280 /* FBSDKMessengerShareKit.framework */; };
 		7ABF3EEE1DA51E0D00B63280 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABF3EE41DA51E0D00B63280 /* FBSDKShareKit.framework */; };
 		7ACA72C11DA38FC200C6583C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA72C01DA38FC200C6583C /* main.m */; };
-		7ACA72CA1DA38FC300C6583C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA72C81DA38FC300C6583C /* Main.storyboard */; };
 		7ACA72CC1DA38FC300C6583C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA72CB1DA38FC300C6583C /* Assets.xcassets */; };
 		7ACA72CF1DA38FC300C6583C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACA72CD1DA38FC300C6583C /* LaunchScreen.storyboard */; };
 		7ACA72DA1DA38FC300C6583C /* ringbringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA72D91DA38FC300C6583C /* ringbringTests.m */; };
@@ -62,6 +61,7 @@
 		7AE46E561DA6649300367D8E /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE46E551DA6649300367D8E /* MyAccountViewController.m */; };
 		B58B93208D6E45608E6A6BC8 /* libPods-ringbringTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */; };
 		B61742DB1E06883C004FACA7 /* FrequencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61742DA1E06883C004FACA7 /* FrequencyViewController.m */; };
+		E9FCB1E11E085E2F00482F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FCB1E01E085E2F00482F4F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,7 +133,6 @@
 		7ABF3EE41DA51E0D00B63280 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		7ACA72BC1DA38FC200C6583C /* ringbring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringbring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACA72C01DA38FC200C6583C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7ACA72C91DA38FC300C6583C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ACA72CB1DA38FC300C6583C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ACA72CE1DA38FC300C6583C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ACA72D01DA38FC300C6583C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -172,6 +171,7 @@
 		B61742D91E06883C004FACA7 /* FrequencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyViewController.h; sourceTree = "<group>"; };
 		B61742DA1E06883C004FACA7 /* FrequencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyViewController.m; sourceTree = "<group>"; };
 		E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ringbringTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FCB1E01E085E2F00482F4F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ringbring/MVC/Main.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,7 +468,7 @@
 		7ACA72F51DA3901F00C6583C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7ACA72C81DA38FC300C6583C /* Main.storyboard */,
+				E9FCB1E01E085E2F00482F4F /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -739,8 +739,8 @@
 				7ACA731F1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.xib in Resources */,
 				7ACA72CF1DA38FC300C6583C /* LaunchScreen.storyboard in Resources */,
 				7ACA72CC1DA38FC300C6583C /* Assets.xcassets in Resources */,
-				7ACA72CA1DA38FC300C6583C /* Main.storyboard in Resources */,
 				7ACA73251DA3B07D00C6583C /* MoodSelectionTableViewCell.xib in Resources */,
+				E9FCB1E11E085E2F00482F4F /* Main.storyboard in Resources */,
 				7ABF3EE61DA51E0D00B63280 /* AccountKitStrings.bundle in Resources */,
 				7ACA73171DA3A21F00C6583C /* MainHeaderTableViewCell.xib in Resources */,
 				7ACA73311DA3BC1700C6583C /* FoodTableViewCell.xib in Resources */,
@@ -967,15 +967,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7ACA72C81DA38FC300C6583C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7ACA72C91DA38FC300C6583C /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7ACA72CD1DA38FC300C6583C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
