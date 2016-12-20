@@ -62,6 +62,16 @@
 		B58B93208D6E45608E6A6BC8 /* libPods-ringbringTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */; };
 		B61742DB1E06883C004FACA7 /* FrequencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61742DA1E06883C004FACA7 /* FrequencyViewController.m */; };
 		E9FCB1E11E085E2F00482F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FCB1E01E085E2F00482F4F /* Main.storyboard */; };
+		E9FCB1F41E098C5D00482F4F /* MyOfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB1F31E098C5D00482F4F /* MyOfferViewController.m */; };
+		E9FCB1F91E098CA500482F4F /* MyOfferTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB1F71E098CA500482F4F /* MyOfferTableViewCell.m */; };
+		E9FCB1FA1E098CA500482F4F /* MyOfferTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FCB1F81E098CA500482F4F /* MyOfferTableViewCell.xib */; };
+		E9FCB1FE1E09910D00482F4F /* MyOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB1FD1E09910D00482F4F /* MyOrderDetailViewController.m */; };
+		E9FCB2021E09930C00482F4F /* MyReviewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB2011E09930C00482F4F /* MyReviewsViewController.m */; };
+		E9FCB2071E09935700482F4F /* MyReviewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB2051E09935700482F4F /* MyReviewsTableViewCell.m */; };
+		E9FCB2081E09935700482F4F /* MyReviewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FCB2061E09935700482F4F /* MyReviewsTableViewCell.xib */; };
+		E9FCB20C1E09963C00482F4F /* SaveAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB20B1E09963C00482F4F /* SaveAddressViewController.m */; };
+		E9FCB2111E09967C00482F4F /* SaveAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB20F1E09967C00482F4F /* SaveAddressTableViewCell.m */; };
+		E9FCB2121E09967C00482F4F /* SaveAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FCB2101E09967C00482F4F /* SaveAddressTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +182,23 @@
 		B61742DA1E06883C004FACA7 /* FrequencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyViewController.m; sourceTree = "<group>"; };
 		E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ringbringTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FCB1E01E085E2F00482F4F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ringbring/MVC/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		E9FCB1F21E098C5D00482F4F /* MyOfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOfferViewController.h; sourceTree = "<group>"; };
+		E9FCB1F31E098C5D00482F4F /* MyOfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOfferViewController.m; sourceTree = "<group>"; };
+		E9FCB1F61E098CA500482F4F /* MyOfferTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOfferTableViewCell.h; sourceTree = "<group>"; };
+		E9FCB1F71E098CA500482F4F /* MyOfferTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOfferTableViewCell.m; sourceTree = "<group>"; };
+		E9FCB1F81E098CA500482F4F /* MyOfferTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOfferTableViewCell.xib; sourceTree = "<group>"; };
+		E9FCB1FC1E09910D00482F4F /* MyOrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderDetailViewController.h; sourceTree = "<group>"; };
+		E9FCB1FD1E09910D00482F4F /* MyOrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderDetailViewController.m; sourceTree = "<group>"; };
+		E9FCB2001E09930C00482F4F /* MyReviewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReviewsViewController.h; sourceTree = "<group>"; };
+		E9FCB2011E09930C00482F4F /* MyReviewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReviewsViewController.m; sourceTree = "<group>"; };
+		E9FCB2041E09935700482F4F /* MyReviewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReviewsTableViewCell.h; sourceTree = "<group>"; };
+		E9FCB2051E09935700482F4F /* MyReviewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReviewsTableViewCell.m; sourceTree = "<group>"; };
+		E9FCB2061E09935700482F4F /* MyReviewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyReviewsTableViewCell.xib; sourceTree = "<group>"; };
+		E9FCB20A1E09963C00482F4F /* SaveAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveAddressViewController.h; sourceTree = "<group>"; };
+		E9FCB20B1E09963C00482F4F /* SaveAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveAddressViewController.m; sourceTree = "<group>"; };
+		E9FCB20E1E09967C00482F4F /* SaveAddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveAddressTableViewCell.h; sourceTree = "<group>"; };
+		E9FCB20F1E09967C00482F4F /* SaveAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveAddressTableViewCell.m; sourceTree = "<group>"; };
+		E9FCB2101E09967C00482F4F /* SaveAddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaveAddressTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +276,7 @@
 			children = (
 				183C42D41DB8C20F00DBEC03 /* MyOrderViewController.h */,
 				183C42D51DB8C20F00DBEC03 /* MyOrderViewController.m */,
+				E9FCB1FB1E0990E400482F4F /* MyOrderDetailViewController */,
 			);
 			name = MyOrderController;
 			path = HomeViewController/MyOrderController;
@@ -439,6 +467,10 @@
 		7ACA72F31DA3901F00C6583C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E9FCB2091E09962600482F4F /* SaveAddressViewController */,
+				E9FCB1FF1E0992F300482F4F /* MyReviewsViewController */,
+				E9FCB1F11E098C4C00482F4F /* MyOfferViewController */,
+				E9FCB1F51E098C8300482F4F /* MyOfferTableViewCell */,
 				B61742D81E06881C004FACA7 /* FrequencyViewController */,
 				1803004C1DB8D7AC00927F23 /* IBDesignableController */,
 				7AE3533B1DA7DF4C002248EB /* FoodDetailsViewController */,
@@ -623,6 +655,75 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E9FCB1F11E098C4C00482F4F /* MyOfferViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCB1F21E098C5D00482F4F /* MyOfferViewController.h */,
+				E9FCB1F31E098C5D00482F4F /* MyOfferViewController.m */,
+			);
+			path = MyOfferViewController;
+			sourceTree = "<group>";
+		};
+		E9FCB1F51E098C8300482F4F /* MyOfferTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCB1F61E098CA500482F4F /* MyOfferTableViewCell.h */,
+				E9FCB1F71E098CA500482F4F /* MyOfferTableViewCell.m */,
+				E9FCB1F81E098CA500482F4F /* MyOfferTableViewCell.xib */,
+			);
+			name = MyOfferTableViewCell;
+			path = MyOfferViewController/MyOfferTableViewCell;
+			sourceTree = "<group>";
+		};
+		E9FCB1FB1E0990E400482F4F /* MyOrderDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCB1FC1E09910D00482F4F /* MyOrderDetailViewController.h */,
+				E9FCB1FD1E09910D00482F4F /* MyOrderDetailViewController.m */,
+			);
+			path = MyOrderDetailViewController;
+			sourceTree = "<group>";
+		};
+		E9FCB1FF1E0992F300482F4F /* MyReviewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCB2001E09930C00482F4F /* MyReviewsViewController.h */,
+				E9FCB2011E09930C00482F4F /* MyReviewsViewController.m */,
+				E9FCB2031E09933900482F4F /* MyReviewsTableViewCell */,
+			);
+			path = MyReviewsViewController;
+			sourceTree = "<group>";
+		};
+		E9FCB2031E09933900482F4F /* MyReviewsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCB2041E09935700482F4F /* MyReviewsTableViewCell.h */,
+				E9FCB2051E09935700482F4F /* MyReviewsTableViewCell.m */,
+				E9FCB2061E09935700482F4F /* MyReviewsTableViewCell.xib */,
+			);
+			path = MyReviewsTableViewCell;
+			sourceTree = "<group>";
+		};
+		E9FCB2091E09962600482F4F /* SaveAddressViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCB20A1E09963C00482F4F /* SaveAddressViewController.h */,
+				E9FCB20B1E09963C00482F4F /* SaveAddressViewController.m */,
+				E9FCB20D1E09966000482F4F /* SaveAddressTableViewCell */,
+			);
+			path = SaveAddressViewController;
+			sourceTree = "<group>";
+		};
+		E9FCB20D1E09966000482F4F /* SaveAddressTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCB20E1E09967C00482F4F /* SaveAddressTableViewCell.h */,
+				E9FCB20F1E09967C00482F4F /* SaveAddressTableViewCell.m */,
+				E9FCB2101E09967C00482F4F /* SaveAddressTableViewCell.xib */,
+			);
+			path = SaveAddressTableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -736,6 +837,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ACA732B1DA3B11900C6583C /* MoodSelectionCollectionViewCell.xib in Resources */,
+				E9FCB2081E09935700482F4F /* MyReviewsTableViewCell.xib in Resources */,
 				7ACA731F1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.xib in Resources */,
 				7ACA72CF1DA38FC300C6583C /* LaunchScreen.storyboard in Resources */,
 				7ACA72CC1DA38FC300C6583C /* Assets.xcassets in Resources */,
@@ -743,7 +845,9 @@
 				E9FCB1E11E085E2F00482F4F /* Main.storyboard in Resources */,
 				7ABF3EE61DA51E0D00B63280 /* AccountKitStrings.bundle in Resources */,
 				7ACA73171DA3A21F00C6583C /* MainHeaderTableViewCell.xib in Resources */,
+				E9FCB1FA1E098CA500482F4F /* MyOfferTableViewCell.xib in Resources */,
 				7ACA73311DA3BC1700C6583C /* FoodTableViewCell.xib in Resources */,
+				E9FCB2121E09967C00482F4F /* SaveAddressTableViewCell.xib in Resources */,
 				189E87A71DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.xib in Resources */,
 				7ABF3EE81DA51E0D00B63280 /* FacebookSDKStrings.bundle in Resources */,
 			);
@@ -910,28 +1014,35 @@
 			files = (
 				7A34F7CC1DA7711D00294ACE /* TabViewController.m in Sources */,
 				7ACA72F91DA3903700C6583C /* AppDelegate.m in Sources */,
+				E9FCB20C1E09963C00482F4F /* SaveAddressViewController.m in Sources */,
 				183C42E21DB8C27100DBEC03 /* HelpSupportViewController.m in Sources */,
+				E9FCB1F41E098C5D00482F4F /* MyOfferViewController.m in Sources */,
 				1802B5661DBF8E45006DDFFC /* LoginPopUpViewController.m in Sources */,
 				1802B5621DBF7E3F006DDFFC /* SubFoodViewController.m in Sources */,
+				E9FCB2021E09930C00482F4F /* MyReviewsViewController.m in Sources */,
 				B61742DB1E06883C004FACA7 /* FrequencyViewController.m in Sources */,
 				183C42DF1DB8C25C00DBEC03 /* DiscountOfferViewController.m in Sources */,
 				7ACA73301DA3BC1700C6583C /* FoodTableViewCell.m in Sources */,
+				E9FCB2071E09935700482F4F /* MyReviewsTableViewCell.m in Sources */,
 				1803004F1DB8DC3900927F23 /* CustomView.m in Sources */,
 				7ACA73161DA3A21F00C6583C /* MainHeaderTableViewCell.m in Sources */,
 				183C42D91DB8C22A00DBEC03 /* AboutUsViewController.m in Sources */,
 				1841EB871DB8B05F007DEEBB /* MyProfileViewController.m in Sources */,
 				7ACA731E1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.m in Sources */,
+				E9FCB1F91E098CA500482F4F /* MyOfferTableViewCell.m in Sources */,
 				7AE3533E1DA7DF6D002248EB /* FoodDetailsViewController.m in Sources */,
 				189E87A61DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.m in Sources */,
 				7AE46E561DA6649300367D8E /* MyAccountViewController.m in Sources */,
 				7AE46E531DA6648100367D8E /* MyCartViewController.m in Sources */,
 				7ACA732A1DA3B11900C6583C /* MoodSelectionCollectionViewCell.m in Sources */,
+				E9FCB1FE1E09910D00482F4F /* MyOrderDetailViewController.m in Sources */,
 				7A34F7D01DA7830D00294ACE /* NavigationViewController.m in Sources */,
 				7ACA72C11DA38FC200C6583C /* main.m in Sources */,
 				183C42D61DB8C20F00DBEC03 /* MyOrderViewController.m in Sources */,
 				7ACA72FD1DA3912400C6583C /* HomeViewController.m in Sources */,
 				183C42DC1DB8C24200DBEC03 /* YourAddressViewController.m in Sources */,
 				7ACA73241DA3B07D00C6583C /* MoodSelectionTableViewCell.m in Sources */,
+				E9FCB2111E09967C00482F4F /* SaveAddressTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
