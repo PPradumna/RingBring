@@ -61,6 +61,11 @@
 		7AE46E561DA6649300367D8E /* MyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE46E551DA6649300367D8E /* MyAccountViewController.m */; };
 		B58B93208D6E45608E6A6BC8 /* libPods-ringbringTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */; };
 		B61742DB1E06883C004FACA7 /* FrequencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61742DA1E06883C004FACA7 /* FrequencyViewController.m */; };
+		E9CB61C01E0C3518003BF475 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CB61BF1E0C3518003BF475 /* PaymentViewController.m */; };
+		E9CB61C41E0C3EF0003BF475 /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CB61C31E0C3EF0003BF475 /* ResetPasswordViewController.m */; };
+		E9CB61CA1E0C4A2A003BF475 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CB61C91E0C4A2A003BF475 /* ForgetPasswordViewController.m */; };
+		E9CB61CD1E0C4A3C003BF475 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CB61CC1E0C4A3C003BF475 /* RegistrationViewController.m */; };
+		E9CB61D01E0C4A56003BF475 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CB61CF1E0C4A56003BF475 /* LoginViewController.m */; };
 		E9FCB1E11E085E2F00482F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FCB1E01E085E2F00482F4F /* Main.storyboard */; };
 		E9FCB1F41E098C5D00482F4F /* MyOfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB1F31E098C5D00482F4F /* MyOfferViewController.m */; };
 		E9FCB1F91E098CA500482F4F /* MyOfferTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCB1F71E098CA500482F4F /* MyOfferTableViewCell.m */; };
@@ -181,6 +186,16 @@
 		B61742D91E06883C004FACA7 /* FrequencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyViewController.h; sourceTree = "<group>"; };
 		B61742DA1E06883C004FACA7 /* FrequencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyViewController.m; sourceTree = "<group>"; };
 		E5E9F64A512C91A8479DAE41 /* libPods-ringbringTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ringbringTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CB61BE1E0C3518003BF475 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		E9CB61BF1E0C3518003BF475 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		E9CB61C21E0C3EF0003BF475 /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		E9CB61C31E0C3EF0003BF475 /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		E9CB61C81E0C4A2A003BF475 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		E9CB61C91E0C4A2A003BF475 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		E9CB61CB1E0C4A3C003BF475 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		E9CB61CC1E0C4A3C003BF475 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		E9CB61CE1E0C4A56003BF475 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E9CB61CF1E0C4A56003BF475 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		E9FCB1E01E085E2F00482F4F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ringbring/MVC/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		E9FCB1F21E098C5D00482F4F /* MyOfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOfferViewController.h; sourceTree = "<group>"; };
 		E9FCB1F31E098C5D00482F4F /* MyOfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOfferViewController.m; sourceTree = "<group>"; };
@@ -467,6 +482,11 @@
 		7ACA72F31DA3901F00C6583C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E9CB61C71E0C4A15003BF475 /* ForgetPasswordViewController */,
+				E9CB61C61E0C4A06003BF475 /* RegistrationViewController */,
+				E9CB61C51E0C49FD003BF475 /* LoginController */,
+				E9CB61C11E0C3EDA003BF475 /* ResetPasswordViewController */,
+				E9CB61BD1E0C3504003BF475 /* PaymentViewController */,
 				E9FCB2091E09962600482F4F /* SaveAddressViewController */,
 				E9FCB1FF1E0992F300482F4F /* MyReviewsViewController */,
 				E9FCB1F11E098C4C00482F4F /* MyOfferViewController */,
@@ -653,6 +673,51 @@
 				83D41BFAC5DF7405B4D42C8A /* Pods-ringbringUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9CB61BD1E0C3504003BF475 /* PaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB61BE1E0C3518003BF475 /* PaymentViewController.h */,
+				E9CB61BF1E0C3518003BF475 /* PaymentViewController.m */,
+			);
+			path = PaymentViewController;
+			sourceTree = "<group>";
+		};
+		E9CB61C11E0C3EDA003BF475 /* ResetPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB61C21E0C3EF0003BF475 /* ResetPasswordViewController.h */,
+				E9CB61C31E0C3EF0003BF475 /* ResetPasswordViewController.m */,
+			);
+			path = ResetPasswordViewController;
+			sourceTree = "<group>";
+		};
+		E9CB61C51E0C49FD003BF475 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB61CE1E0C4A56003BF475 /* LoginViewController.h */,
+				E9CB61CF1E0C4A56003BF475 /* LoginViewController.m */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		E9CB61C61E0C4A06003BF475 /* RegistrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB61CB1E0C4A3C003BF475 /* RegistrationViewController.h */,
+				E9CB61CC1E0C4A3C003BF475 /* RegistrationViewController.m */,
+			);
+			path = RegistrationViewController;
+			sourceTree = "<group>";
+		};
+		E9CB61C71E0C4A15003BF475 /* ForgetPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9CB61C81E0C4A2A003BF475 /* ForgetPasswordViewController.h */,
+				E9CB61C91E0C4A2A003BF475 /* ForgetPasswordViewController.m */,
+			);
+			path = ForgetPasswordViewController;
 			sourceTree = "<group>";
 		};
 		E9FCB1F11E098C4C00482F4F /* MyOfferViewController */ = {
@@ -1027,19 +1092,24 @@
 				1803004F1DB8DC3900927F23 /* CustomView.m in Sources */,
 				7ACA73161DA3A21F00C6583C /* MainHeaderTableViewCell.m in Sources */,
 				183C42D91DB8C22A00DBEC03 /* AboutUsViewController.m in Sources */,
+				E9CB61C01E0C3518003BF475 /* PaymentViewController.m in Sources */,
 				1841EB871DB8B05F007DEEBB /* MyProfileViewController.m in Sources */,
 				7ACA731E1DA3A2E900C6583C /* HomeHeaderCollectionViewCell.m in Sources */,
 				E9FCB1F91E098CA500482F4F /* MyOfferTableViewCell.m in Sources */,
 				7AE3533E1DA7DF6D002248EB /* FoodDetailsViewController.m in Sources */,
 				189E87A61DBE1A7B001EF2F1 /* FoodDetailsTableViewCell.m in Sources */,
 				7AE46E561DA6649300367D8E /* MyAccountViewController.m in Sources */,
+				E9CB61C41E0C3EF0003BF475 /* ResetPasswordViewController.m in Sources */,
 				7AE46E531DA6648100367D8E /* MyCartViewController.m in Sources */,
+				E9CB61CA1E0C4A2A003BF475 /* ForgetPasswordViewController.m in Sources */,
 				7ACA732A1DA3B11900C6583C /* MoodSelectionCollectionViewCell.m in Sources */,
 				E9FCB1FE1E09910D00482F4F /* MyOrderDetailViewController.m in Sources */,
+				E9CB61CD1E0C4A3C003BF475 /* RegistrationViewController.m in Sources */,
 				7A34F7D01DA7830D00294ACE /* NavigationViewController.m in Sources */,
 				7ACA72C11DA38FC200C6583C /* main.m in Sources */,
 				183C42D61DB8C20F00DBEC03 /* MyOrderViewController.m in Sources */,
 				7ACA72FD1DA3912400C6583C /* HomeViewController.m in Sources */,
+				E9CB61D01E0C4A56003BF475 /* LoginViewController.m in Sources */,
 				183C42DC1DB8C24200DBEC03 /* YourAddressViewController.m in Sources */,
 				7ACA73241DA3B07D00C6583C /* MoodSelectionTableViewCell.m in Sources */,
 				E9FCB2111E09967C00482F4F /* SaveAddressTableViewCell.m in Sources */,
